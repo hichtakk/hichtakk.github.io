@@ -1,0 +1,48 @@
+baseURL = "https://hichtakk.github.io/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+publishDir = "docs"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  defaultTheme = "light"
+  description = "hichtakk (Hirotaka Ichikawa)"
+  keywords = "hichtakk"
+  images = [""]
+  homeSubtitle = "horse, coffee and travel lover"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/hichtakk"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://www.instagram.com/hichtakk/"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/hichtakk"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/hirotaka-ichikawa-aa9a2698/"
+
+[languages]
+  [languages.en]
+    title = "Hirotaka Ichikawa"
+    subtitle = "hichtakk"
+    copyright = "hichtakk"
+
+    [languages.en.params.logo]
+      logoText = "/home/hichtakk"
+      logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts"
