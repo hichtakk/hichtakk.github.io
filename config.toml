@@ -41,8 +41,8 @@ publishDir = "docs"
       logoText = "/home/hichtakk"
       logoHomeLink = "/"
 
-[menu]
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts"
+#[menu]
+#  [[menu.main]]
+#    identifier = "blog"
+#    name = "Blog"
+#    url = "/posts"
